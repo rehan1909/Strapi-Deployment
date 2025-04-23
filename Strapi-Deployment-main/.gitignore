@@ -1,0 +1,33 @@
+# Node modules (if any Node-based dependencies in Strapi)
+node_modules/
+
+# Strapi build files
+.build/
+.cache/
+.tmp/
+dist/
+.env
+.env.*   # in case you use .env.development etc.
+
+# Docker
+*.log
+Dockerfile~
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+.terraform/
+terraform.tfvars
+crash.log
+
+# System/OS
+.DS_Store
+Thumbs.db
+
+# SSH / Key files
+*.pem
+*.pub
+
+# VSCode or IDE stuff
+.vscode/
+.idea/

@@ -113,4 +113,4 @@ strapi-deployment/
 - Make sure the EC2 instance has the correct IAM permissions to pull from the ECR repository.
 - Ensure the EC2 security group allows access to the necessary ports (e.g., HTTP port 80).
 - You can monitor the deployment and EC2 instance from the AWS Console.
--By Rehan Khan
+- By Rehan Khan 2025
